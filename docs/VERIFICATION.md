@@ -16,7 +16,16 @@
 
 - Chrome/Edge加载已解压扩展。浏览器工具的URL安全策略阻止访问扩展管理页；没有用其他方式绕过。
 - 扩展UI的真实chrome.storage、系统通知、重启浏览器的alarm行为。
-- 云端部署、手动Actions实跑及首次13点schedule，须看到实际运行记录后更新本节。
+- 首次13点schedule触发仍待实际运行记录验证（不是把手动运行当定时成功）。
+
+## 已完成的云端验收
+
+- 公开仓库：https://github.com/qianchengguo/ai-job-monitor
+- 手动云端运行：https://github.com/qianchengguo/ai-job-monitor/actions/runs/41589532674
+- 测试、三来源采集、数据提交均成功；数据生成时间2026-11-03 14:23:15 +08:00。
+- data/feed.json、status.json、weekly.json及extension/seed.json已逐字节核对：公开main与数据提交6b0bf7f2e0d82862ce8341b08c78bf23eb552967一致。详见cloud-verification.json。
+- 定时配置为每天北京时间13:00；首次schedule尚未观察到。
+- 原Codex本地每日任务经用户明确授权，在云端实跑验证后暂停，原规则和历史保留。
 
 ## 暂未实现
 

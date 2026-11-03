@@ -1,0 +1,87 @@
+{
+  "runUrl": "https://github.com/qianchengguo/ai-job-monitor/actions/runs/41589532674",
+  "runId": 41589532674,
+  "trigger": "workflow_dispatch",
+  "conclusion": "success",
+  "dataCommit": "6b0bf7f2e0d82862ce8341b08c78bf23eb552967",
+  "generatedAt": "2026-11-03T14:23:15+08:00",
+  "summary": {
+    "new": 0,
+    "valid": 0,
+    "high": 0,
+    "pending": 0
+  },
+  "steps": [
+    {
+      "name": "Set up job",
+      "conclusion": "success"
+    },
+    {
+      "name": "Run actions/checkout@v4",
+      "conclusion": "success"
+    },
+    {
+      "name": "Run actions/setup-python@v5",
+      "conclusion": "success"
+    },
+    {
+      "name": "Test rules and persistence",
+      "conclusion": "success"
+    },
+    {
+      "name": "Run actions/setup-node@v4",
+      "conclusion": "success"
+    },
+    {
+      "name": "Test extension data and notification logic",
+      "conclusion": "success"
+    },
+    {
+      "name": "Collect public employer feeds",
+      "conclusion": "success"
+    },
+    {
+      "name": "Commit only recruitment data (no applicant records)",
+      "conclusion": "success"
+    },
+    {
+      "name": "Save diagnostic status even if collection failed",
+      "conclusion": "success"
+    },
+    {
+      "name": "Post Run actions/setup-node@v4",
+      "conclusion": "success"
+    },
+    {
+      "name": "Post Run actions/setup-python@v5",
+      "conclusion": "success"
+    },
+    {
+      "name": "Post Run actions/checkout@v4",
+      "conclusion": "success"
+    },
+    {
+      "name": "Complete job",
+      "conclusion": "success"
+    }
+  ],
+  "files": [
+    {
+      "path": "data/feed.json",
+      "sha256": "c9ae35a2d558acc716a15e6bbb159d57ccb4e5e8a1fe1bcea9019d8072b9a073"
+    },
+    {
+      "path": "data/status.json",
+      "sha256": "9a7fb97443308263f9624644a0dc436bd56738a9861db4f1c16075365ad8c040"
+    },
+    {
+      "path": "data/weekly.json",
+      "sha256": "20e3c7e0e8f71f04f1e12def66ec8ded217fb5f6606f07b8060608641dc19788"
+    },
+    {
+      "path": "extension/seed.json",
+      "sha256": "c9ae35a2d558acc716a15e6bbb159d57ccb4e5e8a1fe1bcea9019d8072b9a073"
+    }
+  ],
+  "firstScheduledRunVerified": false
+}
