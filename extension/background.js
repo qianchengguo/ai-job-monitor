@@ -15,7 +15,9 @@ async function doSync(){
   if(old&&f.generatedAt<old.generatedAt)throw Error('云端数据早于当前数据，保留当前版本');
   const oldIds=new Set((old?.jobs||[]).map(j=>j.id));
   const n=f.jobs.filter(j=>!oldIds.has(j.id)&&j.category!=='不匹配').length;
-  await chrome.storage.local.set({[KEY]:f,lastSyncedAt:new Date().toISOString(),syncError:null});
+  let cloudStatus=null,cloudStatusError=null;
+  try{const su=new URL(u);su.pathname=su.pathname.replace(/feed\.json$/,'status.json');if(su.href===u.href)throw Error('feed地址需以feed.json结尾');const sr=await fetch(su.href,{cache:'no-store',signal:AbortSignal.timeout(15000),credentials:'omit',redirect:'error'});if(!sr.ok)throw Error('status HTTP '+sr.status);const cs=JSON.parse(await sr.text());if(!['success','partial','failed'].includes(cs.status)||!cs.completedAt)throw Error('状态格式无效');cloudStatus=cs;}catch(e){cloudStatusError=e.message;}
+  await chrome.storage.local.set({[KEY]:f,lastSyncedAt:new Date().toISOString(),syncError:null,cloudStatus,cloudStatusError});
   if(n)await chrome.notifications.create({type:'basic',iconUrl:'icon.png',title:'新增AI求职线索',message:`新增${n}条；请查看资格和待核实条件。`});
   const week=f.weekly?.weekStart;
   if(week&&s.lastNotifiedWeek!==week){await chrome.notifications.create({type:'basic',iconUrl:'icon.png',title:'本周招聘汇总',message:`本周新发现${f.weekly.new}条，变更${f.weekly.updated}条。`});await chrome.storage.local.set({lastNotifiedWeek:week});}
