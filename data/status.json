@@ -1,0 +1,54 @@
+{
+  "startedAt": "2026-11-03T14:14:04+08:00",
+  "completedAt": "2026-11-03T14:14:10+08:00",
+  "status": "success",
+  "sourceCoverage": [
+    {
+      "source": "greenhouse:pingcap",
+      "attemptedAt": "2026-11-03T14:14:04+08:00",
+      "state": "ok",
+      "readCount": 4,
+      "chinaAiCount": 0
+    },
+    {
+      "source": "greenhouse:mongodb",
+      "attemptedAt": "2026-11-03T14:14:05+08:00",
+      "state": "ok",
+      "readCount": 358,
+      "chinaAiCount": 4
+    },
+    {
+      "source": "greenhouse:elastic",
+      "attemptedAt": "2026-11-03T14:14:07+08:00",
+      "state": "ok",
+      "readCount": 409,
+      "chinaAiCount": 0
+    }
+  ],
+  "scope": "仅配置的企业公开Job Board API＋人工导入；未自动搜索BOSS/智联/51job/猎聘/牛客。未完成原990项平台检索。",
+  "roleKeywords": [
+    "AI 应用开发实习生",
+    "LLM 应用开发工程师（初级）",
+    "RAG 开发工程师",
+    "Python AI 开发助理",
+    "RAG 知识库开发工程师",
+    "Python AI 开发工程师（初级）",
+    "AI Agent 应用开发工程师（初级）",
+    "大模型应用工程师",
+    "AI 应用开发助理",
+    "AI 开发实习生（接受已毕业的 2026 届）",
+    "AI 应用开发工程师（初级）",
+    "大模型应用开发工程师",
+    "AI 实施工程师",
+    "AI 交付工程师",
+    "AI 应用运维工程师",
+    "大模型部署工程师",
+    "AI 平台运维工程师",
+    "模型服务运维工程师",
+    "AI 技术支持工程师",
+    "AI 解决方案助理",
+    "企业知识库部署工程师",
+    "私有化大模型实施工程师"
+  ],
+  "schedule": "每日北京时间13:00，GitHub调度可能延迟"
+}
