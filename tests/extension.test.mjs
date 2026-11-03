@@ -1,0 +1,15 @@
+import assert from 'node:assert/strict';
+import {validFeed,feedUrl} from '../extension/shared.js';
+import {readFile} from 'node:fs/promises';
+const seed=JSON.parse(await readFile(new URL('../extension/seed.json',import.meta.url)));
+validFeed(seed);assert.throws(()=>feedUrl('https://evil.example/feed.json'));assert.throws(()=>feedUrl('https://raw.githubusercontent.com/x/y/main/feed.json?token=secret'));
+assert.throws(()=>validFeed({...seed,jobs:[{...seed.jobs[0],id:'a',url:'javascript:alert(1)'}]}));
+const state={jobFeed:structuredClone(seed),feedUrl:'https://raw.githubusercontent.com/test/test/main/data/feed.json',applicationRecords:{personal:{status:'面试中',notes:'keep'}}},notifications=[];
+globalThis.chrome={storage:{local:{async get(keys){return Object.fromEntries((Array.isArray(keys)?keys:[keys]).map(k=>[k,state[k]]));},async set(x){Object.assign(state,x);}}},permissions:{async contains(){return true;}},notifications:{async create(n){notifications.push(n);}}};
+const {sync}=await import('../extension/background.js');
+const next=structuredClone(seed);next.generatedAt='2099-01-01T00:00:00+08:00';const job={...(seed.jobs[0]||{}),id:'test-new',title:'Test only',company:'Fixture',category:'待核实',url:'https://example.org/fixture'};next.jobs.push(job);
+globalThis.fetch=async()=>({ok:true,text:async()=>JSON.stringify(next)});
+assert.equal((await sync()).ok,true);assert.equal(notifications.filter(n=>n.title==='新增AI求职线索').length,1);assert.equal(state.applicationRecords.personal.notes,'keep');
+await sync();assert.equal(notifications.filter(n=>n.title==='新增AI求职线索').length,1);
+const before=JSON.stringify(state.jobFeed);globalThis.fetch=async()=>{throw Error('offline')};assert.equal((await sync()).ok,false);assert.equal(JSON.stringify(state.jobFeed),before);
+console.log('Extension tests passed: feed validation, domain limits, sync, notification dedup, personal data preserved, failure retention');
