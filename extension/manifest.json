@@ -1,0 +1,12 @@
+{
+  "manifest_version": 3,
+  "name": "AI 求职监控工作台",
+  "version": "1.0.0",
+  "description": "公开招聘数据同步、规则筛选和本地投递记录；不调用大模型。",
+  "permissions": ["storage", "alarms", "notifications"],
+  "optional_host_permissions": ["https://raw.githubusercontent.com/*", "http://localhost/*", "http://127.0.0.1/*"],
+  "background": {"service_worker": "background.js", "type": "module"},
+  "action": {"default_title": "AI求职监控", "default_popup": "index.html"},
+  "icons": {"128": "icon.png"},
+  "content_security_policy": {"extension_pages": "script-src 'self'; object-src 'self'"}
+}
