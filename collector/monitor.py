@@ -109,15 +109,18 @@ def score(job, cities):
     text = clean(job.get('description','')); title = job['title']
     conflicts=[]; unknown=[]; ev={}
     def hit(name, pattern):
-        v=evidence(text,pattern)
-        if v: ev[name]=v
-        return v
+        for clause in re.split(r'[\n。;；]',text):
+            if not re.search(pattern,clause,re.I): continue
+            if name in ['masters','experience','crmErp','school'] and re.search(r'优先|preferred|a plus',clause,re.I) and not re.search(r'必须|硬性|mandatory|must|required',clause,re.I): continue
+            v=clause.strip()[:240];ev[name]=v;return v
+        return None
     # Only clear mandatory wording is a hard rejection; preferences and negations are not.
     if re.search(r'销售|商务拓展|客户经理|\b(sales|account executive|business development)\b',title,re.I): conflicts.append('销售/商务岗位')
     if hit('salesKpi',r'销售额|签单指标|销售提成|以.*签约.*考核|sales quota|revenue target|owns all the sales|sales and channels|sales strategy|new business acquisition|prospect(?:ing)? (?:new )?customers'): conflicts.append('销售考核/获客职责')
     if hit('masters',r'(?:必须|要求|需具备|至少|仅限).{0,8}(?:硕士|研究生)|(?:硕士|研究生)(?:及以上)?学历|master.?s degree.{0,30}(?:required|mandatory)|(?:require|minimum).{0,25}master.?s degree'): conflicts.append('硕士及以上硬要求')
-    english_text = re.sub(r'(?:不要求|无需|不强制|不需要).{0,12}(?:四级|六级|CET[- ]?[46])(?:证书)?', '', text, flags=re.I)
-    if evidence(english_text,r'(?<!不)(?:要求|必须|需具备|持有).{0,12}(?:四级|六级|CET[- ]?[46])|(?:CET[- ]?[46]|英语[四六]级).{0,12}(?:必备|必须|证书|通过)'): conflicts.append('英语证书硬要求'); ev['english']=evidence(english_text,r'四级|六级|CET')
+    english_text = '\n'.join(c for c in re.split(r'[\n。;；]',text) if not (re.search(r'优先|preferred|a plus',c,re.I) and not re.search(r'必须|硬性|mandatory|must|required',c,re.I)))
+    english_text = re.sub(r'(?:不要求|无需|不强制|不需要).{0,12}(?:四级|六级|CET[- ]?[46])(?:证书)?', '', english_text, flags=re.I)
+    if evidence(english_text,r'(?<!不)(?:要求|必须|需具备|持有).{0,12}(?:四级|六级|CET[- ]?[46])|(?:CET[- ]?[46]|英语[四六]级).{0,12}(?:必备|必须|通过)|(?:CET[- ]?[46]).{0,15}(?:required|mandatory|must)|(?:require|mandatory).{0,15}CET[- ]?[46]'): conflicts.append('英语证书硬要求'); ev['english']=evidence(english_text,r'四级|六级|CET')
     if hit('experience',r'(?:至少|要求|具备|不少于|minimum|at least)?\s*(?:[3-9]|\d{2})\s*(?:\+|至\d|[-–]\d)?\s*(?:年.{0,8}(?:经验|工作)|years? (?:of )?(?:relevant |professional |software |engineering )?experience)'): conflicts.append('多年工作经验要求')
     if hit('crmErp',r'(?:必须|要求|具备|需有).{0,12}(?:CRM|ERP).{0,25}(?:相关)?经验(?!优先)|(?:CRM|ERP).{0,15}经验.{0,8}(?:必备|必须)'): conflicts.append('CRM/ERP经验为必备')
     if hit('school',r'(?<!非)(?:仅限|必须|要求).{0,15}(?:985|211|双一流)|(?:985|211|双一流).{0,8}(?:院校毕业|院校本科|硬性要求)'): conflicts.append('院校硬限制')
