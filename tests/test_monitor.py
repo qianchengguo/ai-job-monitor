@@ -35,6 +35,11 @@ class MonitorTest(unittest.TestCase):
   self.assertNotIn('硕士及以上硬要求',m.score(self.job('Python RAG API开发；本科；硕士优先'),[])['conflicts'])
  def test_job_identifier_query_retained(self):
   self.assertEqual(m.safe_url('https://example.org/job/?gh_jid=123'),'https://example.org/job/?gh_jid=123')
+ def test_certificate_and_experience_preferences(self):
+  s=m.score(self.job('Python RAG API开发；英语四级证书优先；具备3年工作经验优先'),[])
+  self.assertNotIn('英语证书硬要求',s['conflicts']);self.assertNotIn('多年工作经验要求',s['conflicts'])
+ def test_english_cet_required(self):
+  self.assertIn('英语证书硬要求',m.score(self.job('Python RAG API开发；CET-4 required'),[])['conflicts'])
  def test_url(self):
   for u in ['javascript:alert(1)','http://example.org','https://user:pass@example.org/']:
    with self.assertRaises(ValueError):m.safe_url(u)
