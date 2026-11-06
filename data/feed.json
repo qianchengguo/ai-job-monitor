@@ -1,32 +1,32 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-05T21:00:30+08:00",
-  "lastSuccessAt": "2026-11-05T21:00:30+08:00",
-  "lastUsableUpdateAt": "2026-11-05T21:00:30+08:00",
+  "generatedAt": "2026-11-06T20:48:50+08:00",
+  "lastSuccessAt": "2026-11-06T20:48:50+08:00",
+  "lastUsableUpdateAt": "2026-11-06T20:48:50+08:00",
   "run": {
-    "startedAt": "2026-11-05T21:00:30+08:00",
-    "completedAt": "2026-11-05T21:00:30+08:00",
+    "startedAt": "2026-11-06T20:48:49+08:00",
+    "completedAt": "2026-11-06T20:48:50+08:00",
     "status": "success",
     "sourceCoverage": [
       {
         "source": "greenhouse:pingcap",
-        "attemptedAt": "2026-11-05T21:00:30+08:00",
+        "attemptedAt": "2026-11-06T20:48:49+08:00",
         "state": "ok",
         "readCount": 4,
         "chinaAiCount": 0
       },
       {
         "source": "greenhouse:mongodb",
-        "attemptedAt": "2026-11-05T21:00:30+08:00",
+        "attemptedAt": "2026-11-06T20:48:49+08:00",
         "state": "ok",
-        "readCount": 363,
+        "readCount": 369,
         "chinaAiCount": 5
       },
       {
         "source": "greenhouse:elastic",
-        "attemptedAt": "2026-11-05T21:00:30+08:00",
+        "attemptedAt": "2026-11-06T20:48:50+08:00",
         "state": "ok",
-        "readCount": 426,
+        "readCount": 430,
         "chinaAiCount": 0
       }
     ],
@@ -63,6 +63,67 @@
       "sourceId": "8352010",
       "company": "MongoDB",
       "title": "Account Development Representative",
+      "city": "上海",
+      "locationRaw": "Shanghai",
+      "salary": "未披露",
+      "description": "An Account Development Representative at MongoDB is the starting point for building a serious career in technology sales. \n\nThis role is the foundation of our sales organization. You will partner closely with Account Executives to identify new opportunities within strategic accounts, helping drive meaningful pipeline and long-term customer growth.  \n\nFrom day one, you will learn and apply structured sales frameworks including MEDDIC qualification, account mapping, multi-threading strategies, and value-based discovery. You will develop technical fluency across modern application architectures, cloud infrastructure, and database technologies, gaining real exposure to how complex software solutions are positioned and sold.\n\nADRs at MongoDB do more than generate meetings. They help shape early deal strategy, apply MEDDIC principles to qualify real business problems, and stay engaged through the scoping phase to maintain strong deal momentum \n\nWe invest heavily in structured onboarding, ongoing enablement, and consistent 1:1 coaching. Our ADR team is one of the primary talent pipelines into Account Executive and other revenue roles across MongoDB, with clear, performance-based progression paths.\n\nHybrid Model\n\nWe believe skill development accelerates when teams collaborate in person. This is a hybrid role based in Shanghai, China.\n\nWhat you’ll do\n\n\nOwn outbound prospecting within a defined set of strategic accounts, working closely with your aligned Account Executives and Sales stakeholders.\n\nResearch organizations to uncover new initiatives and opportunities where MongoDB can add value.\n\nExecute thoughtful outbound outreach across phone, email, and social channels to generate qualified pipeline.\n\nLead structured discovery conversations to understand business priorities and technical environments.\n\nApply MEDDIC qualification principles to ensure high-quality opportunities before advancing them.\n\nStay engaged through the early stages of the sales cycle, contributing to strong handoffs and clean deal progression.\n\nMaintain rigorous pipeline hygiene in Salesforce and sales engagement tools.\n\nConsistently exceed monthly and quarterly opportunity targets.\n\n\nWe’re looking for someone with\n\n\nHas a track record of setting goals and exceeding them in competitive or performance-driven environments.\n\nCommunicates clearly and confidently in Mandarin and English (fluent).\n\nTakes ownership of outcomes and follows through on commitments.\n\nCan manage a high level of outbound activity while maintaining quality and attention to detail.\n\nIs coachable and actively applies feedback.\n\nLearns technical concepts quickly and is curious about how businesses use technology.\n\nIs serious about building a long-term career in technology sales.\n\nIs comfortable initiating conversations with senior stakeholders and handling rejection professionally.\n\n\nThings We Love\n\n\nBachelor’s or Master’s degree in Business, Economics, Marketing, Communications, Computer Science, Engineering, or a related field.\n\nFormal training or certifications in sales methodologies (e.g., MEDDIC, Challenger) or technical disciplines.\n\nPrior experience in sales, business development, or other quota-carrying/customer-facing roles.\n\nExposure to databases, cloud infrastructure, open-source technologies, or modern application development.\n\nExperience using Salesforce and sales engagement platforms such as Outreach or Sales Navigator.\n\n\nWhy You Should Apply\n\n\nGreat earning potential.\n\nWelcoming and inclusive workplace Meet MongoDB’s Employee Affinity Groups!\n\nContinuous career development.\n\nSales training in MEDDIC and Command of the Message.\n\nSales Bootcamp\n\nBuddy program cross-departmentally\n\n\nAbout MongoDB\n\nMongoDB is built for change, empowering our customers and our people to innovate at the speed of the market. We have redefined the data platform for the AI era, enabling builders to create, transform, and disrupt industries with software. MongoDB’s unified data platform, the most widely available, globally distributed data platform on the market, helps organizations modernize legacy workloads, embrace innovation, and unleash AI. Our cloud-native platform, MongoDB Atlas, is the only globally distributed, multi-cloud data platform and is available across AWS, Google Cloud, and Microsoft Azure.\n\nWith offices worldwide and over 67,000 customers, including AI-native startups and approximately 75% of the Fortune 100, relying on MongoDB for their most important applications, we’re powering the next era of software.\n\nOur compass at MongoDB is our Leadership Commitment, guiding how and why we make decisions, show up for each other, and win. It’s what makes us MongoDB. \n\nTo drive the personal growth and business impact of our employees, we’re committed to developing a supportive and enriching culture for everyone. From employee affinity groups, to fertility assistance and a generous parental leave policy, we value our employees’ wellbeing and want to support them along every step of their professional and personal journeys. Learn more about what it’s like to work at MongoDB, and help us make an impact on the world!\n\nMongoDB is committed to providing any necessary accommodations for individuals with disabilities within our application and interview process. To request an accommodation due to a disability, please inform your recruiter.\n\nMongoDB is an equal opportunities employer.\n\nRequisition ID : 427002",
+      "url": "https://www.mongodb.com/careers/job/?gh_jid=8352010",
+      "sourceUpdatedAt": "2026-11-06T07:15:09-05:00",
+      "publishedAt": "2026-11-04T16:48:24-05:00",
+      "dateEvidence": "Job Board first_published",
+      "employmentType": "待核实",
+      "originalJdRead": true,
+      "sourceType": "企业官方招聘API",
+      "evidenceUrl": "https://boards-api.greenhouse.io/v1/boards/mongodb/jobs/8352010",
+      "companyReview": {
+        "legalEntity": "待核实",
+        "employmentEntity": "待核实",
+        "fees": "待核实",
+        "outsourcingTravel": "待核实",
+        "technicalTeam": "待核实"
+      },
+      "matchedRoleKeywords": [],
+      "sources": [
+        "greenhouse:mongodb"
+      ],
+      "id": "846f5ff7f18d798a5aac6edb",
+      "fingerprint": "c81ebffa17a474e3af543e8d025a3b632fc50356aa8b871ba1ba300e81028ea9",
+      "firstSeenAt": "2026-11-06T20:48:50+08:00",
+      "lastSeenAt": "2026-11-06T20:48:50+08:00",
+      "lastVerifiedAt": "2026-11-06T20:48:50+08:00",
+      "status": "open",
+      "missingCount": 0,
+      "aliases": [
+        "https://www.mongodb.com/careers/job/?gh_jid=8352010"
+      ],
+      "score": 50,
+      "scoreBreakdown": {
+        "direction": 25,
+        "graduate": 0,
+        "degree": 15,
+        "experience": 0,
+        "english": 0,
+        "city": 10,
+        "type": 0
+      },
+      "category": "待核实",
+      "direction": "AI应用开发",
+      "conflicts": [],
+      "unknowns": [
+        "是否接受已毕业2026届待核实",
+        "初级经验资格待核实",
+        "未发现英语证书硬限制，不代表企业确认免证书"
+      ],
+      "evidence": {
+        "degree": "Bachelor’s or Master’s degree in Business, Economics, Marketing, Communications, Computer Science, Engineering, or a related field."
+      },
+      "schoolNote": "未发现院校硬限制"
+    },
+    {
+      "source": "greenhouse:mongodb",
+      "sourceId": "8352010",
+      "company": "MongoDB",
+      "title": "Account Development Representative",
       "city": "北京",
       "locationRaw": "Beijing; Shanghai; Shenzhen",
       "salary": "未披露",
@@ -92,7 +153,7 @@
       "lastSeenAt": "2026-11-05T21:00:30+08:00",
       "lastVerifiedAt": "2026-11-05T21:00:30+08:00",
       "status": "open",
-      "missingCount": 0,
+      "missingCount": 1,
       "aliases": [
         "https://www.mongodb.com/careers/job/?gh_jid=8352010"
       ],
@@ -150,8 +211,8 @@
       "id": "e75e7cfa847556cb3ea69d22",
       "fingerprint": "93c197a69a639341c55ad41117f610d50f9d74340e90175bd1cd6804794eae6a",
       "firstSeenAt": "2026-11-03T13:50:40+08:00",
-      "lastSeenAt": "2026-11-05T21:00:30+08:00",
-      "lastVerifiedAt": "2026-11-05T21:00:30+08:00",
+      "lastSeenAt": "2026-11-06T20:48:50+08:00",
+      "lastVerifiedAt": "2026-11-06T20:48:50+08:00",
       "status": "open",
       "missingCount": 0,
       "aliases": [
@@ -217,8 +278,8 @@
       "id": "5d8a5cb5feb98109890a1c74",
       "fingerprint": "dba35c5d0c4e815231198eea20319e07cf3a32a037df1b13d1a90994f87a6900",
       "firstSeenAt": "2026-11-03T13:50:40+08:00",
-      "lastSeenAt": "2026-11-05T21:00:30+08:00",
-      "lastVerifiedAt": "2026-11-05T21:00:30+08:00",
+      "lastSeenAt": "2026-11-06T20:48:50+08:00",
+      "lastVerifiedAt": "2026-11-06T20:48:50+08:00",
       "status": "open",
       "missingCount": 0,
       "aliases": [
@@ -283,8 +344,8 @@
       "id": "a80a9b5a86dbb99554381c22",
       "fingerprint": "240714ece57a4fb909d8a9da2433b821890104670e51a659d7c5430683e715ca",
       "firstSeenAt": "2026-11-03T13:50:40+08:00",
-      "lastSeenAt": "2026-11-05T21:00:30+08:00",
-      "lastVerifiedAt": "2026-11-05T21:00:30+08:00",
+      "lastSeenAt": "2026-11-06T20:48:50+08:00",
+      "lastVerifiedAt": "2026-11-06T20:48:50+08:00",
       "status": "open",
       "missingCount": 0,
       "aliases": [
@@ -351,8 +412,8 @@
       "id": "e345626bd31335fcbc3155ef",
       "fingerprint": "39b7afe2ce8f28b19565d48ff4f9ea6e756e638f639dd234ef11af723ef8f96e",
       "firstSeenAt": "2026-11-03T13:50:40+08:00",
-      "lastSeenAt": "2026-11-05T21:00:30+08:00",
-      "lastVerifiedAt": "2026-11-05T21:00:30+08:00",
+      "lastSeenAt": "2026-11-06T20:48:50+08:00",
+      "lastVerifiedAt": "2026-11-06T20:48:50+08:00",
       "status": "open",
       "missingCount": 0,
       "aliases": [
@@ -465,17 +526,23 @@
       "at": "2026-11-05T21:00:30+08:00",
       "id": "69b6ad41ebe03ea2e883694c",
       "type": "new"
+    },
+    {
+      "date": "2026-11-06",
+      "at": "2026-11-06T20:48:50+08:00",
+      "id": "846f5ff7f18d798a5aac6edb",
+      "type": "new"
     }
   ],
   "summary": {
     "new": 1,
-    "valid": 1,
+    "valid": 2,
     "high": 0,
-    "pending": 1
+    "pending": 2
   },
   "weekly": {
     "weekStart": "2026-11-02",
-    "new": 5,
+    "new": 6,
     "updated": 8
   }
 }
