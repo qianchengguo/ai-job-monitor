@@ -1,32 +1,32 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-08T19:49:52+08:00",
-  "lastSuccessAt": "2026-11-08T19:49:52+08:00",
-  "lastUsableUpdateAt": "2026-11-08T19:49:52+08:00",
+  "generatedAt": "2026-11-10T21:23:43+08:00",
+  "lastSuccessAt": "2026-11-10T21:23:43+08:00",
+  "lastUsableUpdateAt": "2026-11-10T21:23:43+08:00",
   "run": {
-    "startedAt": "2026-11-08T19:49:51+08:00",
-    "completedAt": "2026-11-08T19:49:52+08:00",
+    "startedAt": "2026-11-10T21:23:43+08:00",
+    "completedAt": "2026-11-10T21:23:43+08:00",
     "status": "success",
     "sourceCoverage": [
       {
         "source": "greenhouse:pingcap",
-        "attemptedAt": "2026-11-08T19:49:51+08:00",
+        "attemptedAt": "2026-11-10T21:23:43+08:00",
         "state": "ok",
         "readCount": 4,
         "chinaAiCount": 0
       },
       {
         "source": "greenhouse:mongodb",
-        "attemptedAt": "2026-11-08T19:49:51+08:00",
+        "attemptedAt": "2026-11-10T21:23:43+08:00",
         "state": "ok",
-        "readCount": 374,
+        "readCount": 372,
         "chinaAiCount": 5
       },
       {
         "source": "greenhouse:elastic",
-        "attemptedAt": "2026-11-08T19:49:51+08:00",
+        "attemptedAt": "2026-11-10T21:23:43+08:00",
         "state": "ok",
-        "readCount": 425,
+        "readCount": 423,
         "chinaAiCount": 0
       }
     ],
@@ -89,8 +89,8 @@
       "id": "846f5ff7f18d798a5aac6edb",
       "fingerprint": "c81ebffa17a474e3af543e8d025a3b632fc50356aa8b871ba1ba300e81028ea9",
       "firstSeenAt": "2026-11-06T20:48:50+08:00",
-      "lastSeenAt": "2026-11-08T19:49:52+08:00",
-      "lastVerifiedAt": "2026-11-08T19:49:52+08:00",
+      "lastSeenAt": "2026-11-10T21:23:43+08:00",
+      "lastVerifiedAt": "2026-11-10T21:23:43+08:00",
       "status": "open",
       "missingCount": 0,
       "aliases": [
@@ -153,7 +153,7 @@
       "lastSeenAt": "2026-11-05T21:00:30+08:00",
       "lastVerifiedAt": "2026-11-05T21:00:30+08:00",
       "status": "suspected_expired",
-      "missingCount": 3,
+      "missingCount": 4,
       "aliases": [
         "https://www.mongodb.com/careers/job/?gh_jid=8352010"
       ],
@@ -211,8 +211,8 @@
       "id": "e75e7cfa847556cb3ea69d22",
       "fingerprint": "93c197a69a639341c55ad41117f610d50f9d74340e90175bd1cd6804794eae6a",
       "firstSeenAt": "2026-11-03T13:50:40+08:00",
-      "lastSeenAt": "2026-11-08T19:49:52+08:00",
-      "lastVerifiedAt": "2026-11-08T19:49:52+08:00",
+      "lastSeenAt": "2026-11-10T21:23:43+08:00",
+      "lastVerifiedAt": "2026-11-10T21:23:43+08:00",
       "status": "open",
       "missingCount": 0,
       "aliases": [
@@ -278,8 +278,8 @@
       "id": "5d8a5cb5feb98109890a1c74",
       "fingerprint": "dba35c5d0c4e815231198eea20319e07cf3a32a037df1b13d1a90994f87a6900",
       "firstSeenAt": "2026-11-03T13:50:40+08:00",
-      "lastSeenAt": "2026-11-08T19:49:52+08:00",
-      "lastVerifiedAt": "2026-11-08T19:49:52+08:00",
+      "lastSeenAt": "2026-11-10T21:23:43+08:00",
+      "lastVerifiedAt": "2026-11-10T21:23:43+08:00",
       "status": "open",
       "missingCount": 0,
       "aliases": [
@@ -344,8 +344,8 @@
       "id": "a80a9b5a86dbb99554381c22",
       "fingerprint": "240714ece57a4fb909d8a9da2433b821890104670e51a659d7c5430683e715ca",
       "firstSeenAt": "2026-11-03T13:50:40+08:00",
-      "lastSeenAt": "2026-11-08T19:49:52+08:00",
-      "lastVerifiedAt": "2026-11-08T19:49:52+08:00",
+      "lastSeenAt": "2026-11-10T21:23:43+08:00",
+      "lastVerifiedAt": "2026-11-10T21:23:43+08:00",
       "status": "open",
       "missingCount": 0,
       "aliases": [
@@ -412,8 +412,8 @@
       "id": "e345626bd31335fcbc3155ef",
       "fingerprint": "39b7afe2ce8f28b19565d48ff4f9ea6e756e638f639dd234ef11af723ef8f96e",
       "firstSeenAt": "2026-11-03T13:50:40+08:00",
-      "lastSeenAt": "2026-11-08T19:49:52+08:00",
-      "lastVerifiedAt": "2026-11-08T19:49:52+08:00",
+      "lastSeenAt": "2026-11-10T21:23:43+08:00",
+      "lastVerifiedAt": "2026-11-10T21:23:43+08:00",
       "status": "open",
       "missingCount": 0,
       "aliases": [
@@ -547,8 +547,8 @@
     "pending": 1
   },
   "weekly": {
-    "weekStart": "2026-11-02",
-    "new": 6,
-    "updated": 8
+    "weekStart": "2026-11-09",
+    "new": 0,
+    "updated": 0
   }
 }
