@@ -1,32 +1,32 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-20T21:55:16+08:00",
-  "lastSuccessAt": "2026-11-20T21:55:16+08:00",
-  "lastUsableUpdateAt": "2026-11-20T21:55:16+08:00",
+  "generatedAt": "2026-11-21T21:20:12+08:00",
+  "lastSuccessAt": "2026-11-21T21:20:12+08:00",
+  "lastUsableUpdateAt": "2026-11-21T21:20:12+08:00",
   "run": {
-    "startedAt": "2026-11-20T21:55:15+08:00",
-    "completedAt": "2026-11-20T21:55:16+08:00",
+    "startedAt": "2026-11-21T21:20:11+08:00",
+    "completedAt": "2026-11-21T21:20:12+08:00",
     "status": "success",
     "sourceCoverage": [
       {
         "source": "greenhouse:pingcap",
-        "attemptedAt": "2026-11-20T21:55:15+08:00",
+        "attemptedAt": "2026-11-21T21:20:11+08:00",
         "state": "ok",
         "readCount": 4,
         "chinaAiCount": 0
       },
       {
         "source": "greenhouse:mongodb",
-        "attemptedAt": "2026-11-20T21:55:15+08:00",
+        "attemptedAt": "2026-11-21T21:20:12+08:00",
         "state": "ok",
-        "readCount": 413,
+        "readCount": 417,
         "chinaAiCount": 6
       },
       {
         "source": "greenhouse:elastic",
-        "attemptedAt": "2026-11-20T21:55:16+08:00",
+        "attemptedAt": "2026-11-21T21:20:12+08:00",
         "state": "ok",
-        "readCount": 373,
+        "readCount": 382,
         "chinaAiCount": 0
       }
     ],
@@ -89,8 +89,8 @@
       "id": "846f5ff7f18d798a5aac6edb",
       "fingerprint": "c81ebffa17a474e3af543e8d025a3b632fc50356aa8b871ba1ba300e81028ea9",
       "firstSeenAt": "2026-11-06T20:48:50+08:00",
-      "lastSeenAt": "2026-11-20T21:55:16+08:00",
-      "lastVerifiedAt": "2026-11-20T21:55:16+08:00",
+      "lastSeenAt": "2026-11-21T21:20:12+08:00",
+      "lastVerifiedAt": "2026-11-21T21:20:12+08:00",
       "status": "open",
       "missingCount": 0,
       "aliases": [
@@ -153,7 +153,7 @@
       "lastSeenAt": "2026-11-05T21:00:30+08:00",
       "lastVerifiedAt": "2026-11-05T21:00:30+08:00",
       "status": "suspected_expired",
-      "missingCount": 14,
+      "missingCount": 15,
       "aliases": [
         "https://www.mongodb.com/careers/job/?gh_jid=8352010"
       ],
@@ -211,8 +211,8 @@
       "id": "e75e7cfa847556cb3ea69d22",
       "fingerprint": "93c197a69a639341c55ad41117f610d50f9d74340e90175bd1cd6804794eae6a",
       "firstSeenAt": "2026-11-03T13:50:40+08:00",
-      "lastSeenAt": "2026-11-20T21:55:16+08:00",
-      "lastVerifiedAt": "2026-11-20T21:55:16+08:00",
+      "lastSeenAt": "2026-11-21T21:20:12+08:00",
+      "lastVerifiedAt": "2026-11-21T21:20:12+08:00",
       "status": "open",
       "missingCount": 0,
       "aliases": [
@@ -278,8 +278,8 @@
       "id": "5d8a5cb5feb98109890a1c74",
       "fingerprint": "dba35c5d0c4e815231198eea20319e07cf3a32a037df1b13d1a90994f87a6900",
       "firstSeenAt": "2026-11-03T13:50:40+08:00",
-      "lastSeenAt": "2026-11-20T21:55:16+08:00",
-      "lastVerifiedAt": "2026-11-20T21:55:16+08:00",
+      "lastSeenAt": "2026-11-21T21:20:12+08:00",
+      "lastVerifiedAt": "2026-11-21T21:20:12+08:00",
       "status": "open",
       "missingCount": 0,
       "aliases": [
@@ -344,8 +344,8 @@
       "id": "a80a9b5a86dbb99554381c22",
       "fingerprint": "240714ece57a4fb909d8a9da2433b821890104670e51a659d7c5430683e715ca",
       "firstSeenAt": "2026-11-03T13:50:40+08:00",
-      "lastSeenAt": "2026-11-20T21:55:16+08:00",
-      "lastVerifiedAt": "2026-11-20T21:55:16+08:00",
+      "lastSeenAt": "2026-11-21T21:20:12+08:00",
+      "lastVerifiedAt": "2026-11-21T21:20:12+08:00",
       "status": "open",
       "missingCount": 0,
       "aliases": [
@@ -383,21 +383,21 @@
     },
     {
       "source": "greenhouse:mongodb",
-      "sourceId": "7157100",
+      "sourceId": "8399277",
       "company": "MongoDB",
       "title": "Senior Solutions Architect",
       "city": "北京",
       "locationRaw": "Beijing",
       "salary": "未披露",
-      "description": "MongoDB’s mission is to empower innovators to create, transform, and disrupt industries by unleashing the power of software and data. We enable organizations of all sizes to easily build, scale, and run modern applications by helping them modernize legacy workloads, embrace innovation, and unleash AI. Our industry-leading developer data platform, MongoDB Atlas, is the only globally distributed, multi-cloud database and is available in more than 115 regions across AWS, Google Cloud, and Microsoft Azure. Atlas allows customers to build and run applications anywhere—on premises, or across cloud providers. With offices worldwide and over 175,000 new developers signing up to use MongoDB every month, it’s no wonder that leading organizations, like Samsung and Toyota, trust MongoDB to build next-generation, AI-powered applications.\n\nWe are looking for passionate technologists to join our Pre-Sales organization to ensure that our growth is grounded and guided by strong technical alignment with our platform and the needs of our customers.\n\nMongoDB Pre-Sales Solution Architects are responsible for guiding our customers and users to design and build reliable, scalable systems using our data platform. Our team is made up of seasoned technical sales professionals, software architects, entrepreneurs, and developers who take direct responsibility for customer success, including the design of their software, deployment, and operations. You'll work closely with our sales executives, helping customers solve business problems by leveraging our solutions, playing a key role in winning deals and driving the business forward. You'll be a trusted advisor to a wide range of users from startups to the world's largest enterprise IT organizations. \n\nWe are looking to speak to candidates who are based in Beijing for our hybrid working model.\n\nAs an ideal candidate, you will have:\n\n\nIdeally 8 to 11 years of related experience in a customer facing role, with 5 to 7 years of experience in pre-sales with enterprise software\n\nMinimum of 3 years experience with modern scripting languages (e.g. Python, Node.js, SQL) and/or popular programming languages (e.g. C/C++, Java, C#) in a professional capacity\n\nExperience designing with scalable and highly available distributed systems in the cloud and on-prem\n\nDemonstrated ability to work with customers to review complex architecture of existing applications, providing guidance on how to improve by leveraging technology\n\nExcellent presentation, communication, and interpersonal skills, with the ability to convey complex technical and business concepts in a clear and compelling manner to technology and business leadership\n\nAbility to strategize with sales teams and provide recommendations on how to drive a multi-threaded account strategy, aligning other MongoDB and ecosystem resources to move towards a mutually beneficial account plan\n\nThe ability to travel up to 25%\n\nA Bachelor’s degree or equivalent work experience\n\n\nYou may also have:\n\n\nExperience selling databases and/or deploying applications with any of the major cloud providers \n\nExperience with database programming and data models \n\nExperience in data engineering or AI/ML projects\n\nExperience in transforming legacy systems and platforms into modern, scalable, and efficient technology stacks\n\nUnderstanding of popular sales methodologies/ frameworks such as MEDDPICC/ Command of the Message\n\nA MongoDB Certification\n\nA Cloud Provider Certification\n\n\nWhat you do at MongoDB:\n\nIn this role, you will work on complex opportunities where analysis of situations or data requires an in-depth evaluation of various factors. You will:\n\n\nDesign and Architect: Design scalable and performant applications, systems and infrastructure for large software projects leveraging MongoDB\n\nCustomer Advising and Value Articulation: Guide customers on architecture patterns and optimisation strategies for MongoDB, while clearly communicating its business value to the relevant stakeholders\n\nSales Partnership: Collaborate with the sales team to drive account success through account planning, opportunity prioritization/qualification and pipeline generation strategy, while taking ownership of the technical aspects (including but not limited to technical discovery, demos, proof of value, presentations, sizing and documentation)\n\nDemand Generation: Proactively generate demand within the sales territory through self-driven technical initiatives, participation in events such as industry trade shows and account-based marketing events\n\nCustomer Success: Foster strong customer relationships, build champions and ensure customer success and satisfaction\n\nInnovation and Improvement: Continuously seek opportunities to innovate and improve MongoDB solutions and processes (e.g. by relaying field feedback to the product team), as well as proactively mentor other Solutions Consulting team members \n\nPersonal Training and Development: Engage in ongoing training and professional development to stay abreast of MongoDB product suite as well as industry trends\n\n\nWhat you will learn:\n\nMongoDB Product Suite Mastery:\n\n\nCore Database Server: Master the fundamentals and advanced features of MongoDB's core database\n\nAtlas and Advanced Services: Gain expertise in Atlas (fully managed cloud database service), Atlas Stream Processing, Atlas Data Lake, Atlas Full-Text Search, Atlas Vector Search, and Charts\n\nRelational Migrator: Learn to migrate from relational databases seamlessly\n\n\nMarket-Relevant Technologies:\n\n\nHyperscaler Ecosystem: Gain expertise in designing complex systems utilizing cloud services on hyperscaler platforms\n\nComplementary Technologies: Enhance your skills with partner and complementary technologies such as Apache Kafka and Kubernetes\n\n\nModern Architecture Design:\n\n\nDesign Patterns and Methodologies: Embrace best practices in microservices, DevOps, cloud, and security\n\nCutting Edge RAG and AI Architectures: Help customers on their generative AI journeys and working with industry leading partners in the space\n\n\nSales Techniques and Soft Skills:\n\n\nEffective Communication: Master presentations, demonstrations, and whiteboarding\n\nClient Interaction: Develop strategies for discovery and objection handling\n\n\nIndustry Insights:\n\n\nDiverse Market Verticals: Gain exposure to a broad spectrum of interesting use cases across various industries\n\n\nAbout MongoDB\n\nMongoDB is built for change, empowering our customers and our people to innovate at the speed of the market. We have redefined the data platform for the AI era, enabling builders to create, transform, and disrupt industries with software. MongoDB’s unified data platform, the most widely available, globally distributed data platform on the market, helps organizations modernize legacy workloads, embrace innovation, and unleash AI. Our cloud-native platform, MongoDB Atlas, is the only globally distributed, multi-cloud data platform and is available across AWS, Google Cloud, and Microsoft Azure.\n\nWith offices worldwide and over 67,000 customers, including AI-native startups and approximately 75% of the Fortune 100, relying on MongoDB for their most important applications, we’re powering the next era of software.\n\nOur compass at MongoDB is our Leadership Commitment, guiding how and why we make decisions, show up for each other, and win. It’s what makes us MongoDB. \n\nTo drive the personal growth and business impact of our employees, we’re committed to developing a supportive and enriching culture for everyone. From employee affinity groups, to fertility assistance and a generous parental leave policy, we value our employees’ wellbeing and want to support them along every step of their professional and personal journeys. Learn more about what it’s like to work at MongoDB, and help us make an impact on the world!\n\nMongoDB is committed to providing any necessary accommodations for individuals with disabilities within our application and interview process. To request an accommodation due to a disability, please inform your recruiter.\n\nMongoDB is an equal opportunities employer.\n\nRequisition ID: 425526",
-      "url": "https://www.mongodb.com/careers/job/?gh_jid=7157100",
-      "sourceUpdatedAt": "2026-11-16T09:27:51-05:00",
-      "publishedAt": "2025-08-14T01:43:07-04:00",
+      "description": "We are looking for passionate technologists to join our Pre-Sales organization to ensure that our growth is grounded and guided by strong technical alignment with our platform and the needs of our customers.\n\nMongoDB Pre-Sales Solution Architects are responsible for guiding our customers and users to design and build reliable, scalable systems using our data platform. Our team is made up of seasoned technical sales professionals, software architects, entrepreneurs, and developers who take direct responsibility for customer success, including the design of their software, deployment, and operations. You'll work closely with our sales executives, helping customers solve business problems by leveraging our solutions, playing a key role in winning deals and driving the business forward. You'll be a trusted advisor to a wide range of users from startups to the world's largest enterprise IT organizations. \n\nWe are looking to speak to candidates who are based in Beijing for our hybrid working model.\n\nAs an ideal candidate, you will have:\n\n\nIdeally 8 to 11 years of related experience in a customer facing role, with 5 to 7 years of experience in pre-sales with enterprise software\n\nMinimum of 3 years experience with modern scripting languages (e.g. Python, Node.js, SQL) and/or popular programming languages (e.g. C/C++, Java, C#) in a professional capacity\n\nExperience designing with scalable and highly available distributed systems in the cloud and on-prem\n\nDemonstrated ability to work with customers to review complex architecture of existing applications, providing guidance on how to improve by leveraging technology\n\nExcellent presentation, communication, and interpersonal skills, with the ability to convey complex technical and business concepts in a clear and compelling manner to technology and business leadership\n\nAbility to strategize with sales teams and provide recommendations on how to drive a multi-threaded account strategy, aligning other MongoDB and ecosystem resources to move towards a mutually beneficial account plan\n\nThe ability to travel up to 25%\n\nA Bachelor’s degree or equivalent work experience\n\n\nYou may also have:\n\n\nExperience selling databases and/or deploying applications with any of the major cloud providers \n\nExperience with database programming and data models \n\nExperience in data engineering or AI/ML projects\n\nExperience in transforming legacy systems and platforms into modern, scalable, and efficient technology stacks\n\nUnderstanding of popular sales methodologies/ frameworks such as MEDDPICC/ Command of the Message\n\nA MongoDB Certification\n\nA Cloud Provider Certification\n\n\nWhat you do at MongoDB:\n\nIn this role, you will work on complex opportunities where analysis of situations or data requires an in-depth evaluation of various factors. You will:\n\n\nDesign and Architect: Design scalable and performant applications, systems and infrastructure for large software projects leveraging MongoDB\n\nCustomer Advising and Value Articulation: Guide customers on architecture patterns and optimisation strategies for MongoDB, while clearly communicating its business value to the relevant stakeholders\n\nSales Partnership: Collaborate with the sales team to drive account success through account planning, opportunity prioritization/qualification and pipeline generation strategy, while taking ownership of the technical aspects (including but not limited to technical discovery, demos, proof of value, presentations, sizing and documentation)\n\nDemand Generation: Proactively generate demand within the sales territory through self-driven technical initiatives, participation in events such as industry trade shows and account-based marketing events\n\nCustomer Success: Foster strong customer relationships, build champions and ensure customer success and satisfaction\n\nInnovation and Improvement: Continuously seek opportunities to innovate and improve MongoDB solutions and processes (e.g. by relaying field feedback to the product team), as well as proactively mentor other Solutions Consulting team members \n\nPersonal Training and Development: Engage in ongoing training and professional development to stay abreast of MongoDB product suite as well as industry trends\n\n\nWhat you will learn:\n\nMongoDB Product Suite Mastery:\n\n\nCore Database Server: Master the fundamentals and advanced features of MongoDB's core database\n\nAtlas and Advanced Services: Gain expertise in Atlas (fully managed cloud database service), Atlas Stream Processing, Atlas Data Lake, Atlas Full-Text Search, Atlas Vector Search, and Charts\n\nRelational Migrator: Learn to migrate from relational databases seamlessly\n\n\nMarket-Relevant Technologies:\n\n\nHyperscaler Ecosystem: Gain expertise in designing complex systems utilizing cloud services on hyperscaler platforms\n\nComplementary Technologies: Enhance your skills with partner and complementary technologies such as Apache Kafka and Kubernetes\n\n\nModern Architecture Design:\n\n\nDesign Patterns and Methodologies: Embrace best practices in microservices, DevOps, cloud, and security\n\nCutting Edge RAG and AI Architectures: Help customers on their generative AI journeys and working with industry leading partners in the space\n\n\nSales Techniques and Soft Skills:\n\n\nEffective Communication: Master presentations, demonstrations, and whiteboarding\n\nClient Interaction: Develop strategies for discovery and objection handling\n\n\nIndustry Insights:\n\n\nDiverse Market Verticals: Gain exposure to a broad spectrum of interesting use cases across various industries\n\n\nAbout MongoDB\n\nMongoDB is built for change, empowering our customers and our people to innovate at the speed of the market. We have redefined the data platform for the AI era, enabling builders to create, transform, and disrupt industries with software. MongoDB’s unified data platform, the most widely available, globally distributed data platform on the market, helps organizations modernize legacy workloads, embrace innovation, and unleash AI. Our cloud-native platform, MongoDB Atlas, is the only globally distributed, multi-cloud data platform and is available across AWS, Google Cloud, and Microsoft Azure.\n\nWith offices worldwide and over 67,000 customers, including AI-native startups and approximately 75% of the Fortune 100, relying on MongoDB for their most important applications, we’re powering the next era of software.\n\nOur compass at MongoDB is our Leadership Commitment, guiding how and why we make decisions, show up for each other, and win. It’s what makes us MongoDB. \n\nTo drive the personal growth and business impact of our employees, we’re committed to developing a supportive and enriching culture for everyone. From employee affinity groups, to fertility assistance and a generous parental leave policy, we value our employees’ wellbeing and want to support them along every step of their professional and personal journeys. Learn more about what it’s like to work at MongoDB, and help us make an impact on the world!\n\nMongoDB is committed to providing any necessary accommodations for individuals with disabilities within our application and interview process. To request an accommodation due to a disability, please inform your recruiter.\n\nMongoDB is an equal opportunities employer.\n\n\n\n\nRequisition ID\n4273624896",
+      "url": "https://www.mongodb.com/careers/job/?gh_jid=8399277",
+      "sourceUpdatedAt": "2026-11-19T05:32:28-05:00",
+      "publishedAt": "2026-11-19T03:05:59-05:00",
       "dateEvidence": "Job Board first_published",
       "employmentType": "待核实",
       "originalJdRead": true,
       "sourceType": "企业官方招聘API",
-      "evidenceUrl": "https://boards-api.greenhouse.io/v1/boards/mongodb/jobs/7157100",
+      "evidenceUrl": "https://boards-api.greenhouse.io/v1/boards/mongodb/jobs/8399277",
       "companyReview": {
         "legalEntity": "待核实",
         "employmentEntity": "待核实",
@@ -410,10 +410,10 @@
         "greenhouse:mongodb"
       ],
       "id": "e345626bd31335fcbc3155ef",
-      "fingerprint": "39b7afe2ce8f28b19565d48ff4f9ea6e756e638f639dd234ef11af723ef8f96e",
+      "fingerprint": "d101fa806b9f036900d905a267452b4e2a50e10546d20159002835f2a7c7bea2",
       "firstSeenAt": "2026-11-03T13:50:40+08:00",
-      "lastSeenAt": "2026-11-20T21:55:16+08:00",
-      "lastVerifiedAt": "2026-11-20T21:55:16+08:00",
+      "lastSeenAt": "2026-11-21T21:20:12+08:00",
+      "lastVerifiedAt": "2026-11-21T21:20:12+08:00",
       "status": "open",
       "missingCount": 0,
       "aliases": [
@@ -439,8 +439,7 @@
       "unknowns": [
         "是否接受已毕业2026届待核实",
         "初级经验资格待核实",
-        "未发现英语证书硬限制，不代表企业确认免证书",
-        "招聘日期较旧，需重新核实"
+        "未发现英语证书硬限制，不代表企业确认免证书"
       ],
       "evidence": {
         "experience": "Ideally 8 to 11 years of related experience in a customer facing role, with 5 to 7 years of experience in pre-sales with enterprise software",
@@ -563,6 +562,12 @@
       "at": "2026-11-20T21:55:16+08:00",
       "id": "e345626bd31335fcbc3155ef",
       "type": "updated"
+    },
+    {
+      "date": "2026-11-21",
+      "at": "2026-11-21T21:20:12+08:00",
+      "id": "e345626bd31335fcbc3155ef",
+      "type": "updated"
     }
   ],
   "summary": {
@@ -574,6 +579,6 @@
   "weekly": {
     "weekStart": "2026-11-16",
     "new": 0,
-    "updated": 4
+    "updated": 5
   }
 }

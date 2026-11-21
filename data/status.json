@@ -1,27 +1,27 @@
 {
-  "startedAt": "2026-11-20T21:55:15+08:00",
-  "completedAt": "2026-11-20T21:55:16+08:00",
+  "startedAt": "2026-11-21T21:20:11+08:00",
+  "completedAt": "2026-11-21T21:20:12+08:00",
   "status": "success",
   "sourceCoverage": [
     {
       "source": "greenhouse:pingcap",
-      "attemptedAt": "2026-11-20T21:55:15+08:00",
+      "attemptedAt": "2026-11-21T21:20:11+08:00",
       "state": "ok",
       "readCount": 4,
       "chinaAiCount": 0
     },
     {
       "source": "greenhouse:mongodb",
-      "attemptedAt": "2026-11-20T21:55:15+08:00",
+      "attemptedAt": "2026-11-21T21:20:12+08:00",
       "state": "ok",
-      "readCount": 413,
+      "readCount": 417,
       "chinaAiCount": 6
     },
     {
       "source": "greenhouse:elastic",
-      "attemptedAt": "2026-11-20T21:55:16+08:00",
+      "attemptedAt": "2026-11-21T21:20:12+08:00",
       "state": "ok",
-      "readCount": 373,
+      "readCount": 382,
       "chinaAiCount": 0
     }
   ],
